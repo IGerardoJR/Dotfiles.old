@@ -1,0 +1,32 @@
+configuration{
+    modi: "run,drun,window";
+    icon-theme:         "Papirus-Apps";
+    show-icons: true;
+    terminal: "tilix";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   Aplicaciones ";
+    display-run: "   Ejecutar ";
+    display-window: " 﩯  Ventanas ";
+    display-Network: " 󰤨  Redes ";
+    sidebar-mode: true;
+}
+
+//@theme "catppuccin-mocha"
+//@theme "catppuccin-frappe"
+/*@theme "launcher"*/
+@theme "windows11-grid-dark"
+//@theme "rounded-orange-dark"
+//@theme "windows11-list-light"
+//@theme "launchpad"
+//@theme "rounded-nord-dark"
+//@theme "squared-material-red"
+//@theme "tokyonight2"
+//@theme "murz"
+//@theme "dracula"
+//@theme "cherry"
+//@theme "pfp"
+//@theme "material"
+@theme "minimal"

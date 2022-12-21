@@ -1,0 +1,59 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+#bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d I II III  IV V VI
+
+bspc config border_width 2
+bspc config focused_border_color \#9147FF
+#003333 = Color transparente
+#03EBE1
+bspc config normal_border_color \#003333
+#003333
+bspc config window_gap         8 # 12 original
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+#bspc config normal_border_color  "#787c99"
+#bspc config focused_border_color "#7aa2f7"
+#bspc config urgent_border_color  "#e0af68"
+#bspc config presel_border_color  "#ad8ee6"
+#bspc config active_border_color  "#449dab"
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+# Todos los apartados que no tienen un comentario al lado es porque su valor por defecto era 0
+bspc config top_padding  0
+bspc config left_padding 10
+bspc config right_padding 10
+bspc config bottom_padding 10 # original 45
+
+
+#XSECURELOCK_DIM_COLOR="#1a1b26" \
+#	XSECURELOCK_PASSWORD_PROMPT=emoticon \
+#	XSECURELOCK_SHOW_HOSTNAME=0 \
+#	XSECURELOCK_SHOW_USERNAME=0 \
+#	XSECURELOCK_FONT="Hack Nerd Font Mono" \
+#	xss-lock -n /usr/lib/xsecurelock/saver_xscreensaver -l -- xsecurelock
+
+# Autostart
+$HOME/.screenlayout/screen.sh &
+picom &
+compton --restore &
+nitrogen --restore &
+#bash ~/.config/polybar/launch.sh --colorblocks &
+#bash ~/dotfiles/polybar/launch.sh --colorblocks & 
+#bash ~/.config/polybar/tokyo/launch.sh &
+bash ~/.config/bspwm/polybar/Amarena/launch.sh &
+wmname compiz &
+mpd   &
+ncmpcpp &
+xsetroot -cursor_name left_ptr &
+#$HOME/.config/polybar/launch.sh &
+
