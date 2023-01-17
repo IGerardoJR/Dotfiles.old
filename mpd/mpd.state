@@ -1,0 +1,54 @@
+sw_volume: 98
+audio_device_state:1:Pavucontrol sound server
+audio_device_state:1:PipeWire Sound Server
+audio_device_state:1:Visualizer
+audio_device_state:1:lossless
+state: pause
+current: 9
+time: 5.064000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:y2mate.com - Black Sabbath Iron Man.mp3
+1:y2mate.com - Guitar Flash_320kbps.mp3
+2:y2mate.com - Judas Priest Painkiller.mp3
+3:y2mate.com - TNT.mp3
+4:Alejandra Guzmán - Mala Hierba (Album Version).flac
+5:Arch Enemy - Nemesis.flac
+6:Indestructible (Deluxe Edition) CD 1 TRACK 2 (FLAC).flac
+7:DJMAX - Oblivion.flac
+8:DJMAX - I Want You.flac
+9:DJMAX - Don't Die.flac
+10:Don Omar - Conteo.flac
+11:Nigga - Te Quiero.flac
+12:Aqualung (Special Edition) CD 1 TRACK 1 (FLAC).flac
+13:Ride The Lightning (Remastered) CD 1 TRACK 3 (FLAC).flac
+14:Metallica - Creeping Death (Remastered).flac
+15:Metallica - The Call Of Ktulu (Remastered).flac
+16:Metallica - One.flac
+17:Metallica - Sad But True.flac
+18:Metallica - The Unforgiven.flac
+19:Metallica - Nothing Else Matters.flac
+20:Metallica - My Friend Of Misery.flac
+21:Metallica CD 1 TRACK 1 (FLAC).flac
+22:Metallica CD 1 TRACK 10 (FLAC).flac
+23:Pat Benatar - Heartbreaker.flac
+24:Siouxsie and The Banshees - The Killing Jar.flac
+25:Megadeth - Holy Wars...The Punishment Due (Remastered).flac
+26:Megadeth - Sudden Death.flac
+27:Ride The Lightning (Remastered) CD 1 TRACK 3 (FLAC).flac
+28:Metallica - Creeping Death (Remastered).flac
+29:Metallica - The Call Of Ktulu (Remastered).flac
+30:Metallica - One.flac
+31:Metallica - Sad But True.flac
+32:Metallica - The Unforgiven.flac
+33:Metallica - Nothing Else Matters.flac
+34:Metallica - My Friend Of Misery.flac
+35:Metallica CD 1 TRACK 1 (FLAC).flac
+36:Metallica CD 1 TRACK 10 (FLAC).flac
+playlist_end
